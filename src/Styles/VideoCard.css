@@ -1,0 +1,50 @@
+.VideoCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vmax;
+    height: 48vh;
+    margin: 10px;
+    background-color: white;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.6s;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.VideoCard:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 2px 6px 4px rgba(0,0,0,.4);
+}
+
+.VideoCard a{
+    transition: all 0.6s;
+    padding: 2.5vmax;
+    border: none;
+    width: 8vmax;
+    margin: 0 auto;
+    border-radius: 100%;
+    background-color: rgba(255,255,255,0.096);
+}
+
+.VideoCard a > svg{
+    fill: rgba(255,255,255);
+}
+
+
+.VideoCard:hover a{
+    padding: 2.5vmax;
+    background-color: rgba(255,255,255,0.671);
+    border-radius: 100%;
+    border: none;
+}
+.VideoCard:hover a > svg{
+    fill: rgba(255,0,0);
+}
+
+.VideoCard h5{
+    margin: 1vmax;
+    color: rgba(255,255,255);
+}

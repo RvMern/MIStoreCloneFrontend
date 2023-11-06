@@ -1,0 +1,201 @@
+.preFooter{
+    margin-top: 3rem;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.preFooter > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(66,66,66,0.8);
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.preFooter > div:hover{
+    color: rgba(0,0,0,1);
+}
+
+.preFooter .icon{
+    transform: scale(2) translate(-8px,-6px);
+}
+
+
+
+/* pre Footer 2 Starts Here */
+.preFooter2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 40px;
+}
+
+.preFooter2 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.preFooter2 > div > p{
+    color: rgba(0,0,0,0.842);
+    font-size: 1.5vmax;
+    width: 18vmax;
+    margin: 0% ;
+}
+
+.preFooter2 > div span{
+    color: rgba(51,51,51,0.842);
+    width: 18vmax;
+    font-size: 1vmax;
+}
+
+.preFooter2 > div > div > input{
+    border: none;
+    outline: none;
+    padding: 0.5vmax 1vmax;
+    background-color: white;
+    width: 20.4vmax;
+}
+
+.preFooter2 > div > div > button{
+    border: none;
+    padding: 0.5vmax;
+    outline: none;
+    font-weight: 600;
+    color: rgba(51,51,51,0.842);
+    background-color: white;
+}
+.preFooter2 > div > div > button:hover{
+    background-color: rgba(126,126,126,.493);
+}
+
+.preFooter2 > div > div{
+    border: 1px solid rgba(126,126,126,.493);
+}
+
+.preFooter2 > div:nth-child(2) > span{
+    width: 22vmax;
+}
+
+.preFooter2 > div:nth-child(3){
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.preFooter2 > div:nth-child(3) > p{
+    width: 14vmax;
+}
+
+.preFooter2 > div:nth-child(3) > span{
+    width: 14vmax;
+}
+
+.preFooter2 > div:nth-child(4){
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.preFooter2 > div:nth-child(4) > i{
+    cursor: pointer;
+    margin: 1vmax;
+    color: rgba(138,138,138,.705)
+}
+
+.preFooter2 > div:nth-child(4) > i:hover{
+    color: black;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    .preFooter{
+        display: block;
+    }
+
+    .preFooter2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .preFooter2 > div{
+        flex: 50%;
+    }
+    .preFooter2 > div >p{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .preFooter2 > div >span{
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+    }
+    .preFooter2 > div > div:nth-child(1) >input{
+        font-size: 16px;
+        padding: 0 5px;
+        margin: 0;
+        width: 85%;
+    }
+    .preFooter2 > div:nth-child(2) > span{
+        width: 100%;
+    }
+    .preFooter2 > div:nth-child(3){
+        align-items: center;
+    }
+    .preFooter2 > div:nth-child(3){
+        align-items: center;
+    }
+}
+
+
+@media screen and (min-width:577px) and (max-width:1222px){
+    .preFooter{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .preFooter > div{
+        flex: 33.33%;
+    }
+    span.icon{
+        display: inline-block;
+        margin: 0 0 0 35px;
+    }
+
+    .preFooter2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .preFooter2 > div{
+        flex: 50%;
+    }
+    .preFooter2 > div >p{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .preFooter2 > div >span{
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+    }
+    .preFooter2 > div > div:nth-child(1) >input{
+        font-size: 16px;
+        padding: 0 5px;
+        margin: 0;
+        width: 85%;
+    }
+    .preFooter2 > div:nth-child(2) > span{
+        width: 100%;
+    }
+    .preFooter2 > div:nth-child(3){
+        align-items: center;
+    }
+    .preFooter2 > div:nth-child(3){
+        align-items: center;
+    }
+}

@@ -1,0 +1,61 @@
+.offer-container{
+    display: flex;
+    padding: 20px 30px;
+}
+.offer{
+    flex:33.33%;
+    margin: 0 15px;
+}
+.offer img{
+    width: 100%;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.offer img:hover{
+    box-shadow: 0 6px 15px rgba(0,0,0,.8);
+}
+
+
+
+@media screen and (max-width:576px) {
+    .offer-container{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .offer{
+        margin: 10px 5px;
+        flex: 45%;
+    }
+    .offer img{
+        width: 100%;
+    }
+
+    .offer-container > div:nth-child(3) > a > img{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:1222px) {
+    .offer-container{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .offer{
+        margin: 10px 5px;
+        flex: 45%;
+    }
+    .offer img{
+        width: 80%;
+    }
+
+    .offer-container > div:nth-child(3) > a > img{
+        width: 40%;
+    }
+}

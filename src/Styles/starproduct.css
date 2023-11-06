@@ -1,0 +1,150 @@
+.starproduct-container{
+    display: flex;
+    margin: 30px 0;
+}
+.starproduct{
+    flex: 50%;
+}
+.doodle-1{
+    text-align: end;
+}
+.doodle-2-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.doodle-2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.starproduct-1,
+.starproduct-2{
+    flex: 50%;
+}
+
+.starproduct-1{
+    text-align: start;
+}
+.starproduct-2{
+    text-align: start;
+}
+
+.starproduct-container img:hover{
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,.5);
+}
+
+@media screen and (max-width:576px){
+    /* .starproduct-container{
+        display: block;
+        width: 100%;
+    }
+    .doodle-1{
+        width: 90%;
+        margin: auto;
+        padding: 0;
+    }
+    .doodle-1 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .doodle-2{
+        display: none;
+    } */
+    .starproduct-container{
+        display: block;
+        width: 100%;
+    }
+    .doodle-1{
+        width: 100%;
+        margin: auto;
+    }
+    .doodle-1 img{
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+
+    .doodle-2{
+        width: 100%;
+    }
+
+    .doodle-2-1{
+        width: 90%;
+        margin: auto;
+    }
+    .starproduct-1 img{
+        width: 50%;
+    }
+    .starproduct-2 img{
+        width: 100%;
+    }
+
+}
+
+
+
+@media screen and (width:576px) {
+    .starproduct-container{
+        display: block;
+        width: 100%;
+    }
+    .doodle-1{
+        width: 90%;
+        margin: auto;
+        padding: 0;
+        height: 200px;
+    }
+    .doodle-1 img{
+        width: 100%;
+    }
+
+    .doodle-2{
+        width: 90%;
+        margin: auto;
+    }
+    .starproduct-1{
+        display: flex;
+    }
+    .starproduct-1 img{
+        width: 252px;
+        height: 276px;
+    }
+    .starproduct-2{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:577px) and (max-width:1222px) {
+    .starproduct-container{
+        display: block;
+        width: 100%;
+    }
+    .doodle-1{
+        width: 100%;
+        margin: auto;
+    }
+    .doodle-1 img{
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+
+    .doodle-2{
+        width: 100%;
+    }
+
+    .doodle-2-1{
+        width: 90%;
+        margin: auto;
+    }
+    .starproduct-1 img{
+        width: 50%;
+    }
+    .starproduct-2 img{
+        width: 100%;
+    }
+
+
+}

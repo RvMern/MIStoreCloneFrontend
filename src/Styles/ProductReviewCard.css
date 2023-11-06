@@ -1,0 +1,49 @@
+.ProductReviewCard{
+    margin: 10px;
+    background-color: white;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.ProductReviewCard > img{
+    width: 100%;
+}
+
+.ProductReviewCard:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 2px 6px 4px rgba(0,0,0,.4);
+}
+
+
+.ProductReviewCard h5{
+    margin: 10px 0 10px 50px;
+    color: rgba(94,94,94);
+}
+
+.ProductReviewCard span{
+    margin: 0 10px;
+    font-size: 14px;
+    color: rgba(94,94,94);
+}
+.ProductReviewCard span:nth-child(4){
+    font-weight: bold;
+    color: orangered;
+}
+
+
+@media screen and (max-width:576px) {
+    .ProductReviewCard > img{
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width:577px) and (max-width:1222px) {
+    .ProductReviewCard h5{
+        margin: 10px 0 10px 20px;
+    }
+    .ProductReviewCard span{
+        text-align: left;
+        margin-left: 20px;
+    }
+}

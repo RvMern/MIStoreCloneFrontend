@@ -1,0 +1,30 @@
+.HotAccessoriesMenu{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.HotAccessoriesMenu a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.HotAccessoriesMenu a:hover{
+    color: red;
+    border-bottom: 1px solid orangered;
+}
+
+
+
+@media screen and (max-width:575px) {
+    .HotAccessoriesMenu{
+        display: flex;
+    }
+    .HotAccessoriesMenu a{
+        flex: 20%;
+        text-align: center;
+    }
+}
+
+

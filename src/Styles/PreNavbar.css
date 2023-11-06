@@ -1,0 +1,86 @@
+.prenavbar{
+    background-color: rgba(0,0,0,.8);
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    width: 100%;
+}
+
+.prenavbar-1{
+    text-align: start;
+    margin-left: 50px;
+}
+
+.prenavbar-1 a{
+   text-decoration: none;
+   color: white;
+   margin: 10px; 
+   display: inline-block;
+   padding: 8px;
+}
+
+.prenavbar-2{
+    text-align: end;
+    margin-right: 50px;
+}
+.prenavbar-2 a{
+    text-decoration: none;
+    color: white;
+    margin: 10px; 
+    display: block;
+    display: inline-block;
+    padding: 8px;
+}
+
+.prenavbar a:hover{
+    color: red;
+}
+
+.cart{
+    position: relative;
+}
+.badge-number{
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+@media  screen and (max-width:576px){
+    .prenavbar{
+        display: none;
+    }
+    /* .prenavbar{
+        display: block;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .prenavbar span{
+        display: none;
+    }
+    .prenavbar-1,.prenavbar-2{
+        margin: 0;
+    }
+    .prenavbar-1 a,
+    .prenavbar-2 a{
+        display: block;
+        margin: 0;
+        text-align: center;
+    } */
+}
+
+
+@media screen and (min-width:577px) and (max-width:1222px) {
+    
+    .prenavbar{
+        display: block;
+        justify-content: center;
+    }
+    .prenavbar-1,
+    .prenavbar-2{
+        margin: 0;
+        text-align: center;
+    }
+}

@@ -1,0 +1,22 @@
+.nav-option-card{
+    margin: 20px;
+    cursor: pointer; 
+    transition: all 0.4s;
+    width: 50%;
+}
+
+.nav-option-card:hover{
+    margin: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    cursor: pointer;
+    transform: translateY(-2px);
+    z-index: 9999;
+}
+
+
+@media screen and (max-width:576px) {
+    .nav-option-card{
+        margin: 20px;
+        width: 40%;
+    }
+}

@@ -1,0 +1,56 @@
+.HotAccessories{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+}
+
+.HotAccessories > div:first-child > img{
+    transition: all 0.6s ;
+    width: 22vw;
+    cursor: pointer;
+}
+
+.HotAccessories > div:first-child > img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 15px rgba(53,53,53,.363);
+}
+
+.HotAccessories > div:last-child{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:576px){
+    .HotAccessories{
+        display: flex;
+    }
+    .HotAccessories > div:first-child > img{
+        width: 100%;
+        height: 50%;
+        text-align: center;
+    }
+
+    .HotAccessories > div{
+        flex: 50%;
+    }
+    
+}
+
+
+@media screen and (min-width:577px) and (max-width:1222px) {
+    .HotAccessories{
+        display: flex;
+    }
+    .HotAccessories> div:first-child{
+        flex: 30%;
+    }
+    .HotAccessories > div:first-child > img{
+        width: 100%;
+    }
+
+    .HotAccessories > div:nth-child(2){
+        flex: 70%;
+    }
+    
+}

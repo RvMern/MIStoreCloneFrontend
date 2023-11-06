@@ -1,0 +1,12 @@
+.productReviews{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:576px) {
+    .productReviews{
+        display: block;
+    }
+    
+}
